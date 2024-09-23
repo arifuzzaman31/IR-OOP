@@ -1,0 +1,129 @@
+.bg-ash {
+    background: #b0b0b0;
+}
+
+.text-ash {
+    background: #b0b0b0;
+}
+
+.readonly-bg-white[readonly] {
+    background-color: #fff !important;
+}
+
+.custom_upload_files input {
+    /* background: #0000001f; */
+    outline: 2px dashed #92b0b3;
+    outline-offset: -10px;
+    -webkit-transition: outline-offset .15s ease-in-out, background-color .15s linear;
+    transition: outline-offset .15s ease-in-out, background-color .15s linear;
+    padding: 120px 0px 85px 35%;
+    text-align: center !important;
+    margin: 0;
+    width: 100% !important;
+}
+
+.custom_upload_files input:hover {
+    background-color: #f1f1f1;
+}
+
+.custom_upload_files input:focus {
+    background: #fff;
+    outline: 2px dashed #92b0b3;
+    outline-offset: -10px;
+    -webkit-transition: outline-offset .15s ease-in-out, background-color .15s linear;
+    transition: outline-offset .15s ease-in-out, background-color .15s linear;
+    border: 1px solid #92b0b3;
+}
+
+.custom_upload_files {
+    position: relative;
+    height: 100%;
+}
+
+.custom_upload_files:after {
+    pointer-events: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 50px;
+    right: 0;
+    height: 56px;
+    content: "";
+    background-image: url('../img/upload_icon.png');
+    display: block;
+    margin: 0 auto;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.custom_upload_files input {
+    background-color: #fff;
+}
+
+.custom_upload_files:before {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    pointer-events: none;
+    width: 100%;
+    right: 0;
+    height: 10%;
+    content: " or drag it here. ";
+    display: block;
+    margin: 0 auto;
+    color: #2ea591;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+#progress-wrp {
+    border: 1px solid #0099CC;
+    padding: 1px;
+    position: relative;
+    height: 30px;
+    border-radius: 3px;
+    margin: 10px;
+    text-align: left;
+    background: #fff;
+    box-shadow: inset 1px 3px 6px rgba(0, 0, 0, 0.12);
+}
+
+#progress-wrp .progress-bar {
+    height: 100%;
+    border-radius: 3px;
+    background-color: #f39ac7;
+    width: 0;
+    box-shadow: inset 1px 1px 10px rgba(0, 0, 0, 0.11);
+}
+
+#progress-wrp .status {
+    top: 3px;
+    left: 50%;
+    position: absolute;
+    display: inline-block;
+    color: #000000;
+}
+
+.action_btn a {
+    padding: 0.25rem 0.5rem;
+}
+
+.ebook_create_form label,
+.evaluation_form label,
+.evaluation_final_form label {
+    color: #000000;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #000000;
+}
+
+
+
+/* Datatable  */
+
+.dt-button-collection div[role="menu"] {
+    margin-top: 10px;
+    position: absolute;
+    z-index: 999;
+    right: 0;
+}
